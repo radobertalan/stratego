@@ -13,11 +13,11 @@ export class MainPage extends React.Component{
               <div className="row d-flex justify-content-center">
               <form>
                 <Link to="/WAITING_FOR_SECOND_PLAYER">
-                  <button type="button" class="btn btn-primary">Új szoba indítása</button>
+                  <button type="button" className="btn btn-primary">Új szoba indítása</button>
                 </Link>
                 <input class="form-control" type="text" placeholder="Szoba azonosító"></input>
                 <Link to="/PREPARE_GAME">
-                  <button type="button" class="btn btn-primary">Csatlakozás szobához</button>
+                  <button type="button" className="btn btn-primary">Csatlakozás szobához</button>
                 </Link>
               </form>
               </div>
